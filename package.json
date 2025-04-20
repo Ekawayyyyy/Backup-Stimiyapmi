@@ -1,0 +1,25 @@
+{
+  "name": "backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "eka",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "child_process": "^1.0.2",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "moment-timezone": "^0.5.48",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7"
+  }
+}
